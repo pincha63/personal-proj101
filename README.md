@@ -13,69 +13,43 @@ Tech stack
 Data Architecture
 -----------------
 
-There will be a table of users 
-
+  There will be a table of users 
     (for the time being, login will have username but no password)
-
-There will be a table of projects
-
+  There will be a table of projects
     (one user can have zero to many projects, each project has one user)
-
-Each project will have one or more periods (days or weeks)
-
-For each period within a project we'll collect metrics
-
-(Values of metrics can either be picked from a value list...
-
+  Each project will have one or more periods (days or weeks)
+  For each period within a project we'll collect metrics
+  (Values of metrics can either be picked from a value list...
     or be numberic wihin a range...
-
     usually an integer, but let's allow decimals)
-
-Once a project achieves a milestone, report on progress per...
-
+  Once a project achieves a milestone, report on progress per...
     a pre-defined success formula
-
-Once a project is done, same, and archive to the user's history
-
+  Once a project is done, same, and archive to the user's history
     (which means there is a User 1:N Proj_History persistence)
 
 Application Principles
 ----------------------
-Procedure for log-in and/or sign-up
+  Procedure for log-in and/or sign-up
+* allow federated via Google Twitter or Facebook (?)
 
-  allow federated via Google Twitter or Facebook (?)
-
-Procedure for creating project
-
-  Project Name
-
-  Duration
-
-  Metrics (maybe allow choosing from set of existing metrics)
-
-  Success criterion (formula)
+  Procedure for creating project
+*  Project Name
+*  Duration
+*  Metrics (maybe allow choosing from set of existing metrics)
+*  Success criterion (formula)
 
 Procedure for entering data
-
-  Choose period
-
-  Enter metric value for period
-
-  Repeat for all metrics
+*  Choose period
+*  Enter metric value for period
+*  Repeat for all metrics
 
 Procedure for seeing reports
-
-  Milestone report by metric
-
-  Milestone report by success formula
-
-  Project report (only if project has finished)
+*  Milestone report by metric
+*  Milestone report by success formula
+*  Project report (only if project has finished)
 
 Allowances
 ----------
-
-Suspend and resume project
-
-Choose song for project
-
-Choose theme for project
+* Suspend and resume project
+* Choose song for project
+* Choose theme for project

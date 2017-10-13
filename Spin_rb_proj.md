@@ -7,4 +7,5 @@ How to spin a Ruby project
 * CSS and other ancillary
 * JS (what precisely...)
 * Database SQL scripts to create the tables and relationships per the classes
+
 *unless we relegate to existing ORM, but I'm thinking real basics
